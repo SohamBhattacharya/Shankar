@@ -1,0 +1,2 @@
+set size ratio -1
+plot "Image11771_1.jpg" binary filetype=jpg with rgbimage, "Image11771_1.txt" u 1:(266-$2) with points
